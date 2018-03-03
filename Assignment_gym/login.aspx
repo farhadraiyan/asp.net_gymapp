@@ -9,20 +9,23 @@
 
                 <tr>
                     <td>
-                        <asp:TextBox ID="txt_UserName" runat="server" Width="524px" placeholder="Username/Email"></asp:TextBox></td>
+                        <asp:TextBox CssClass="rounded" ID="txt_UserName" runat="server" Width="530px" placeholder="Username/Email" Height="50px"></asp:TextBox></td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:TextBox ID="Password" runat="server" Width="523px" placeholder="Password"></asp:TextBox></td>
+                        <asp:TextBox CssClass="rounded" ID="Password" runat="server" Width="530px" placeholder="Password" Height="50px"></asp:TextBox></td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:Button ID="btn_Login" runat="server" Text="Login" Width="530px" BackColor="#33CC33" />
+                        <asp:Button CssClass="rounded" ID="btn_Login" runat="server" Text="Login" Width="530px" BackColor="#33CC33" Height="50px" />
                     </td>
                 </tr>
 
             </table>
-            <a href="#">Forget your password</a>
+            <br />
+            <a href="#">Forget your password?</a>
+            <br /><br /><br />
+            <span>Don't have an account? <a href="#">Sign Up</a> now</span>
 
         </div>
     </div>

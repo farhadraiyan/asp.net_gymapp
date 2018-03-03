@@ -1,32 +1,52 @@
 ﻿#headernav,#footernav{
     background-color:cadetblue;
     height:100px;
+
 }
-#login_form{
-    height:500px;
+#footernav{
+
+    clear:both;
+}
+#login_form, #signup_form{
+    
     width:50%;
     margin:30px 25% 30px 25%;
    
     text-align:center;
     background-color:powderblue;
 }
-/*login link*/
+/*login and home link*/
 #Login, #Home{
     color:white;
+    font-size:larger;
+    font-weight:bolder;
 }
 #searchicon
 {
     background-color:green;
+    border:white;
 }
-#logo{
+#logo,Image1{
     width:50px;
     height:50px;
     border-radius: 50%;
 }
 table, tr, td{
-    padding:20px 5px 20px 5px;
-    align-items:center;
-    
+    padding:10px 0px 10px 5px;
+    float:left;
+    font-size:large;
+    font-weight:bold;
 }
+#tbl_signup, tr, td{
+    padding:10px 0px 10px 5px;
+    float:left;
+    font-size:large;
+    font-weight:bold;
+#srch
+{
+    width:300px;
+    height:auto;
+}
+
 
 

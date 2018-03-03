@@ -103,6 +103,7 @@
     <Content Include="Default.Master" />
     <Content Include="scripts\jquery-3.0.0.slim.min.map" />
     <Content Include="scripts\jquery-3.0.0.min.map" />
+    <Content Include="Signup.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -200,6 +201,13 @@
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Signup.aspx.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Signup.aspx.designer.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

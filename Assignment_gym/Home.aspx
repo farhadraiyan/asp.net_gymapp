@@ -2,7 +2,7 @@
 
 <asp:Content ID="Home" ContentPlaceHolderID="CommonContent" runat="server">
     <div class="container">
-        <h2>This is the content of Home page</h2>
+        <h2>&nbsp;This is the content of Home page</h2>
     </div>
     
 
