@@ -22,13 +22,13 @@ namespace Assignment_gym {
         protected global::System.Web.UI.WebControls.Label lbl_signup;
         
         /// <summary>
-        /// Image1 control.
+        /// btn_profilep_pic control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
+        protected global::System.Web.UI.WebControls.Button btn_profilep_pic;
         
         /// <summary>
         /// txt_fName control.
@@ -92,5 +92,14 @@ namespace Assignment_gym {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_weight;
+        
+        /// <summary>
+        /// btn_Crt_Profile control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_Crt_Profile;
     }
 }
