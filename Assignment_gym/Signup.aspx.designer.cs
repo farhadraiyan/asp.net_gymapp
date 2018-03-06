@@ -58,13 +58,13 @@ namespace Assignment_gym {
         protected global::System.Web.UI.WebControls.TextBox txt_email;
         
         /// <summary>
-        /// txt_Profession control.
+        /// valRegExEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_Profession;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator valRegExEmail;
         
         /// <summary>
         /// txt_Phone control.
@@ -74,24 +74,6 @@ namespace Assignment_gym {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_Phone;
-        
-        /// <summary>
-        /// txt_height control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_height;
-        
-        /// <summary>
-        /// txt_weight control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_weight;
         
         /// <summary>
         /// btn_Crt_Profile control.

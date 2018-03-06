@@ -47,6 +47,10 @@
     width:500px;
     
 }
-
+.classWithPad
+{
+    margin:10px; 
+    padding:10px;
+}
 
 
